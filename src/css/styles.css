@@ -145,6 +145,26 @@ body {
 /* HEADER SECTION */
 /****************/
 
+/* Layout */
+
+.header {
+  height: 9.6rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 4.8rem;
+
+  background-color: #fdf2e9;
+}
+
+/* Content styles */
+
+.logo {
+  height: 2.2rem;
+}
+
 /******************/
 /* HERO SECTION */
 /**************/
@@ -152,7 +172,7 @@ body {
 /* Layout  */
 
 .hero-section {
-  padding: 9.6rem 0;
+  padding: 4.8rem 0 9.6rem 0;
 
   background-color: #fdf2e9;
 }
@@ -167,6 +187,8 @@ body {
 
   margin: 0 auto;
 }
+
+/* Content styles */
 
 /* Text */
 
@@ -192,6 +214,8 @@ body {
 
   margin-top: 8rem;
 }
+
+/* Delivered meals content styles */
 
 /* Images */
 
