@@ -83,7 +83,7 @@ body {
 /****************/
 
 .margin-right-sm {
-  margin-right: 1.6rem;
+  margin-right: 1.6rem !important;
 }
 
 /*************************/
@@ -108,6 +108,7 @@ body {
 .btn:link,
 .btn:visited {
   font-size: 2rem;
+  font-weight: 600;
   text-decoration: none;
 
   display: inline-block;
@@ -163,6 +164,49 @@ body {
 
 .logo {
   height: 2.2rem;
+}
+
+/************************/
+/* NAVIGATION SECTION */
+/********************/
+
+.main-nav-list {
+  list-style: none;
+
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-decoration: none;
+
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+
+  color: #333;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #cf711f;
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+
+  color: #fff;
+  background-color: #e67e22;
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  background-color: #cf711f;
 }
 
 /******************/
